@@ -53,7 +53,7 @@ export default class CreateTodo extends Component {
         // yet
         e.preventDefault();
 
-        console.debug(`Form submitted:`);
+        console.debug(`Form submitted: `);
         console.debug(`Todo Description: ${this.state.todo_description}`);
         console.debug(`Todo Responsible: ${this.state.todo_responsible}`);
         console.debug(`Todo Priority: ${this.state.todo_priority}`);
